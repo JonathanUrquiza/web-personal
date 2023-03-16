@@ -61,16 +61,49 @@
     </nav>
   </header>
   <main>
-
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 fw-normal">E-comerce</h1>
+        <p class="lead fw-normal">proximamente voy a poder brindarte un servicio que se ajuste a tus necesidades de e-comerce!!.</p>
+        <a class="btn btn-outline-secondary" href="#">proximamente</a>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
     <!-- START THE FEATURETTES -->
+
 
     <hr class="featurette-divider">
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <section class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"  id="estatico">
         <div class="my-3 py-3">
-          <h2 class="display-5">Plan medio</h2>
+          <h2 class="display-5">Plan basico</h2>
           <p class="lead">web estático</p>
+          <a class="btn btn-outline-secondary" href="#">$34200</a>
+          <p><span>único pago</span></p>
+          <p><span>15 Días</span></p>
+          <ul class="list-unstyled text-small">
+            <li>3 pestañas</li>
+            <li>Diseño de presentación</li>
+            <li>Contactos</li>
+            <li>Conexion a resdes sociales</li>
+            <li>Web responsive</li>
+            <li>whatsapp web</li>
+          </ul>
+        </div>
+        <div class="web bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+        <!-- contenido dinamico 
+          <button id="btnver">ver</button>
+          <div id="dinamico">
+          </div> 
+        -->
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3" id="medioEstatico">
+          <h2 class="display-5" id="planMedio">Plan medio</h2>
+          <p class="lead" id="tipoEstatico">web estático</p>
           <a class="btn btn-outline-secondary" href="#">$45600</a>
           <p><span>único pago</span></p>
           <p><span>25 Días</span></p>
@@ -85,33 +118,15 @@
             <li>Google maps</li>
           </ul>
         </div>
-        <div class="web bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-        </div>
-      </div>
-      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Plan báscio</h2>
-          <p class="lead">Website estático.</p>
-          <a class="btn btn-outline-secondary" href="#">$34200</a>
-          <p><span>15 Días</span></p>
-          <ul class="list-unstyled text-small">
-            <li>3 pestañas</li>
-            <li>Diseño de presentación</li>
-            <li>Contactos</li>
-            <li>Conexion a resdes sociales</li>
-            <li>Web responsive</li>
-            <li>whatsapp web</li>
-          </ul>
-        </div>
         <div class="web bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
         </div>
       </div>
 
-    </div>
+    </section>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
 
-      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="dinamico">
+        <div class="my-3 p-3" id="basicoDinamico">
           <h2 class="display-5">Plan báscio</h2>
           <p class="lead">Website dinamico.</p>
           <a class="btn btn-outline-secondary" href="#">$38000</a>
@@ -131,7 +146,7 @@
         </div>
       </div>
       <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
+        <div class="my-3 py-3" id="medioDinamico">
           <h2 class="display-5">Plan medio</h2>
           <p class="lead">Website dinamico.</p>
           <a class="btn btn-outline-secondary" href="#">$53200</a>
