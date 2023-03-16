@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="description" content="desarrollo web">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../styles/index.css" rel="stylesheet">
+  <title>Desarrollo web</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Web House</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Opciones</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/sobremi.html">Acerca de mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicio.html">Servicios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Desplegar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3 mt-lg-0" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 fw-normal">Proximamente</h1>
+        <p class="lead fw-normal">E-comerce, registro de dominios, base de datos, etc.</p>
+      </div>
+      <div class=" product-device shadow-sm d-none d-md-block"></div>
+      <div class=" product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" id="Estaticos">
+      <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3" id="basicoEstatico">
+          <h2 class="display-5">Plan báscio</h2>
+          <p class="lead">Website estático.</p>
+          <a class="btn btn-outline-secondary" href="#">$34200</a>
+          <p><span>15 Días</span></p>
+          <ul class="list-unstyled text-small">
+            <li>3 pestañas</li>
+            <li>Diseño de presentación</li>
+            <li>Contactos</li>
+            <li>Conexion a resdes sociales</li>
+            <li>Web responsive</li>
+            <li>whatsapp web</li>
+          </ul>
+        </div>
+        <div class="web bg-light shadow-sm mx-auto" style=" width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3" id="medioEstatico">
+          <h2 class="display-5">Plan medio</h2>
+          <p class="lead">web estático</p>
+          <a class="btn btn-outline-secondary" href="#">$45600</a>
+          <p><span>único pago</span></p>
+          <p><span>25 Días</span></p>
+          <ul class="list-unstyled text-small">
+            <li>6 pestañas</li>
+            <li>Diseño de presentación</li>
+            <li>Contactos</li>
+            <li>Conexion a resdes sociales</li>
+            <li>Web responsive</li>
+            <li>whatsapp web</li>
+            <li>Galeria de fotos y videos</li>
+            <li>Google maps</li>
+          </ul>
+        </div>
+        <div class="web bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+    </div>
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="dinamico">
+      <h2 class="display-5">Plan báscio</h2>
+      <div class="my-3 py-3" id="basicoDinamico">
+        <p class="lead">Website dinamico sin base de datos.</p>
+        <a class="btn btn-outline-secondary" href="#">$38000</a>
+        <p><span>20 Días</span></p>
+        <ul class="list-unstyled text-small">
+          <li>3 pestañas</li>
+          <li>Diseño de presentación</li>
+          <li>Contactos</li>
+          <li>Conexion a resdes sociales</li>
+          <li>Web responsive</li>
+          <li>whatsapp web</li>
+          <li>carrousel de fotos y videos</li>
+          <li>Google maps</li>
+          <li>Formulario de mensaje</li>
+          <li>Inicio de sesión</li>
+        </ul>
+      </div>
+      <div class="web bg-light shadow-sm mx-auto" style=" width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <h2 class="display-5">Plan medio</h2>
+      <div class="my-3 py-3" id="medioDinamico">
+        <p class="lead">Website dinamico sin base de datos.</p>
+        <a class="btn btn-outline-secondary" href="#">$53200</a>
+        <p><span>25 Días</span></p>
+        <ul class="list-unstyled text-small">
+          <li>6 pestañas</li>
+          <li>Diseño de presentación</li>
+          <li>Contactos</li>
+          <li>Conexion a resdes sociales</li>
+          <li>Web responsive</li>
+          <li>whatsapp web</li>
+          <li>carrousel de fotos y videos</li>
+          <li>Google maps</li>
+          <li>Formulario de mensaje</li>
+          <li>Inicio de sesión</li>
+        </ul>
+      </div>
+      <div class="web bg-light shadow-sm mx-auto" style=" width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      </div>
+      <hr class="featurette-divider">
+    </div>
+  </main>
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+          viewBox="0 0 24 24">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+        <small class="d-block mb-3 text-muted">&copy; 2022–2023</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>herramientas</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">HTML5</a></li>
+          <li><a class="link-secondary" href="#">CSS3</a></li>
+          <li><a class="link-secondary" href="#">javaScript</a></li>
+          <li><a class="link-secondary" href="#">reactjs</a></li>
+          <li><a class="link-secondary" href="#">nodejs</a></li>
+          <li><a class="link-secondary" href="#">Sass</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Redes</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary"
+              href="https://www.linkedin.com/in/jonathan-javier-urquiza-179a70119/">linkedin</a></li>
+          <li><a class="link-secondary" href="https://github.com/JonathanUrquiza?tab=repositories">Github</a></li>
+          <li><a class="link-secondary" href="https://wa.me/5491168370362">whatsapp</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+ <script src="../js/servicios.js">Programación</script>
+</body>
+
+</html>
