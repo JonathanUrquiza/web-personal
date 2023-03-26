@@ -1,0 +1,39 @@
+[
+    {
+       "nombre":"Plan básico",
+       "tipo":"web estático",
+       "id":1,
+       "precio":34200,
+       "pormo":"promo 1",
+       "tiempo":"15 días",
+       "cantidad":3
+    },
+    {
+       "nombre":"Plan medio",
+       "tipo":"web estático",
+       "id":2,
+       "precio":45600,
+       "pormo":"promo 2",
+       "tiempo":"25 días",
+       "cantidad":6
+    },
+    {
+       "nombre":"Plan básico",
+       "tipo":"web dinámico",
+       "id":3,
+       "precio":34200,
+       "pormo":"promo 3",
+       "tiempo":"20 días",
+       "cantidad":3
+    },
+    {
+       "nombre":"Plan medio",
+       "tipo":"web dinámico",
+       "id":4,
+       "precio":53200,
+       "pormo":"promo 4",
+       "tiempo":"25 días",
+       "cantidad":6
+    }
+ ]
+ 
