@@ -18,7 +18,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Web House</a>
+        <a class="navbar-brand" href="../index.html">Desarrollo web</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2">
           <span class="navbar-toggler-icon"></span>
@@ -33,30 +33,15 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/sobremi.html">Acerca de mí</a>
+                <a class="nav-link active" aria-current="page" href="sobremi.html">Acerca de mí</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="servicio.html">Servicios</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Desplegar
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Enviame un mensaje</a></li>
-                  <li><a class="dropdown-item" href="#">Formas de</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Enviame un mensaje</a>
               </li>
             </ul>
-            <form class="d-flex mt-3 mt-lg-0" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </div>
@@ -66,8 +51,7 @@
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div class="col-md-5 p-lg-5 mx-auto my-5">
         <h1 class="display-4 fw-normal">E-comerce</h1>
-        <p class="lead fw-normal">proximamente voy a poder brindarte un servicio que se ajuste a tus necesidades de
-          e-comerce!!.</p>
+        <p class="lead fw-normal">Queres tener tu propio tienda online?</p>
         <a class="btn btn-outline-secondary" href="#">proximamente</a>
       </div>
       <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -76,16 +60,23 @@
     <!-- START THE FEATURETTES -->
 
 
+    
     <hr class="featurette-divider">
+
 
     <section class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
       <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="estatico">
         <div class="my-3 py-3">
           <h2 class="display-5">Plan basico</h2>
           <p class="lead">web estático</p>
-          <a class="btn btn-outline-secondary" href="#">$34200</a>
-          <p><span>único pago</span></p>
-          <p><span>15 Días</span></p>
+          <a class="btn btn-outline-secondary btnBuy " id="1" href="https://mpago.la/23PDduE">$34200</a>
+          <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="94240506-861bcb4b-4d6e-408f-9f80-d2278a6e2e53" data-source="button">
+</script>
+
+
+          <p class="lead"><span>único pago</span></p>
+          <p class="lead"><span>5 Días</span></p>
           <ul class="list-unstyled text-small">
             <li>3 pestañas</li>
             <li>Diseño de presentación</li>
@@ -93,27 +84,23 @@
             <li>Conexion a resdes sociales</li>
             <li>Web responsive</li>
             <li>whatsapp web</li>
+            <li>Galería con 3 imganes.</li>
           </ul>
         </div>
       <div class="web bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
         </div>
-        
-      
-        
-        <!-- 
-        <div id="dinamico">
-          contenido dinamico 
-        </div> 
-        -->
-        
+
       </div>
       <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 py-3" id="medioEstatico">
           <h2 class="display-5" id="planMedio">Plan medio</h2>
           <p class="lead" id="tipoEstatico">web estático</p>
-          <a class="btn btn-outline-secondary" href="#">$45600</a>
-          <p><span>único pago</span></p>
-          <p><span>25 Días</span></p>
+          <a class="btn btn-outline-secondary btnBuy" id="2" href="#">$45600</a>
+          <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="94240506-800acfdc-bec1-4bb3-ba77-c9423ac60190" data-source="button">
+</script>
+          <p class="lead"><span>único pago</span></p>
+          <p class="lead"><span>15 Días</span></p>
           <ul class="list-unstyled text-small">
             <li>6 pestañas</li>
             <li>Diseño de presentación</li>
@@ -136,8 +123,9 @@
         <div class="my-3 p-3" id="basicoDinamico">
           <h2 class="display-5">Plan báscio</h2>
           <p class="lead">Website dinamico.</p>
-          <a class="btn btn-outline-secondary" href="#">$38000</a>
-          <p><span>20 Días</span></p>
+          <a class="btn btn-outline-secondary btnBuy" id="3" href="#">Consultar</a>
+          
+          <p class="lead"><span>20 Días</span></p>
           <ul class="list-unstyled text-small">
             <li>3 pestañas</li>
             <li>Diseño de presentación</li>
@@ -156,8 +144,8 @@
         <div class="my-3 py-3" id="medioDinamico">
           <h2 class="display-5">Plan medio</h2>
           <p class="lead">Website dinamico.</p>
-          <a class="btn btn-outline-secondary" href="#">$53200</a>
-          <p><span>25 Días</span></p>
+          <a class="btn btn-outline-secondary btnBuy" id="4" href="#">Consultar</a>
+          <p class="lead"><span>25 Días</span></p>
           <ul class="list-unstyled text-small">
             <li>6 pestañas</li>
             <li>Diseño de presentación</li>
@@ -189,7 +177,8 @@
           <path
             d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
         </svg>
-        <small class="d-block mb-3 text-muted">&copy; 2022–2023</small>
+        <small class="d-block mb-3 text-muted">2022–2023</small>
+        <small class="d-block mb-3 text-muted">&copy; Jonathan JAvier Urquiza</small>
       </div>
       <div class="col-6 col-md">
         <h5>herramientas</h5>
@@ -215,8 +204,7 @@
   </footer>
 
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
-  
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>  
 </body>
 
 </html>
