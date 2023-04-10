@@ -89,6 +89,7 @@
     background-color: #333;
     border-radius: 21px;
     transform: rotate(30deg);
+   opacity: 0.5;
   }
   
   .product-device::before {
@@ -108,6 +109,15 @@
     bottom: 0;
     left: 5%;
     background-color: #e5e5e5;
+    opacity: 0.5;
+    
+  }
+  .cardComerce {
+    background-color: #333;
+    z-index: 4;
+    color: #e5e5e5;
+    border-radius: 10px;
+    margin: 3px;
   }
   .web {
     background-image: url(../img/fondos/portatil-gaming-teclado-gaming.webp);
