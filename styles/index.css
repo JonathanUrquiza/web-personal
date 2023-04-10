@@ -114,10 +114,9 @@
   }
   .cardComerce {
     background-color: #333;
-    z-index: 4;
-    color: #e5e5e5;
-    border-radius: 10px;
-    margin: 3px;
+    height: max-content;
+    border-radius: 5px;
+    padding-bottom: 15px;
   }
   .web {
     background-image: url(../img/fondos/portatil-gaming-teclado-gaming.webp);
