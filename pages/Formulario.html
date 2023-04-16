@@ -18,70 +18,73 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
-          <div class="container-fluid">          
-            <a class="navbar-brand" href="../index.html"><img src="../img/Logo/Logo.png" alt="Logo" height="50px" class="m-3">Desarrollo web</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
-              aria-controls="offcanvasNavbar2">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
-              aria-labelledby="offcanvasNavbar2Label">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Opciones</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                  aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="sobremi.html">Acerca de mí</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="servicio.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Formulario.html">Enviame un mensaje</a>
-                  </li>
-                </ul>
-              </div>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/Logo/Logo.png" alt="Logo" height="50px"
+                        class="m-3">Desarrollo web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Opciones</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="sobremi.html">Acerca de mí</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicio.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Formulario.html">Enviame un mensaje</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </nav>
-      </header>
+    </header>
     <main>
-<section>
-<article>
-    <form action="enviar.html" method="post" id="survey-form">
-        <fieldset>
-            <label for="" id="name-label">Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Nombre"></label>
-            <label for="" id="last-name-label">Apellido: <input type="text" id="apellido" name="apellido" required placeholder="Apellido"></label>
-            <label id="email-label">Email: <input id="email" name="email" type="email" placeholder="Ingrese su email" required /></label>
-            <label id="number-label">Edad:<input id="number" name="number" type="number" minlength="1" maxlength="2" placeholder="Ingrese su edad" /></label>
-          </fieldset>
-          <fieldset>
-            <label for="referrer">Motivo
-                <select id="dropdown" name="dropdown">
-                  <option value="">Elija una opción</option>
-                  <option value="1">Colaboración</option>
-                  <option value="2">Contratación</option>
-                  <option value="3">Sitios web´s dinamicos</option>
-                  <option value="4">Consultas</option>
-                  <option value="5">Otros</option>
-                </select>
-                <label for="bio">Deje su mensaje.
-                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Deje el motivo de su consulta"></textarea>
-                  </label>
-          </fieldset>
-          <input type="submit" value="enviar" id="submit"/>
-    </form>
-</article>
-</section>
-<section>
+        <section>
+            <article>
+                <form action="enviar.html" method="post" id="survey-form">
+                    <fieldset>
+                        <label for="" id="name-label">Nombre: <input type="text" id="nombre" name="nombre" required
+                                placeholder="Nombre"></label>
+                        <label for="" id="last-name-label">Apellido: <input type="text" id="apellido" name="apellido"
+                                required placeholder="Apellido"></label>
+                        <label id="email-label">Email: <input id="email" name="email" type="email"
+                                placeholder="Ingrese su email" required /></label>
+                        <label id="number-label">Edad:<input id="number" name="number" type="number" minlength="1"
+                                maxlength="2" placeholder="Ingrese su edad" /></label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="referrer">Motivo
+                            <select id="dropdown" name="dropdown">
+                                <option value="">Elija una opción</option>
+                                <option value="1">Colaboración</option>
+                                <option value="2">Contratación</option>
+                                <option value="3">Sitios web´s dinamicos</option>
+                                <option value="4">Consultas</option>
+                                <option value="5">Otros</option>
+                            </select>
+                            <label for="bio">Deje su mensaje.
+                                <textarea id="bio" name="bio" rows="3" cols="30"
+                                    placeholder="Deje el motivo de su consulta"></textarea>
+                            </label>
+                    </fieldset>
+                    <input type="submit" value="enviar" id="submit" id="submit" />
+                </form>
+            </article>
+        </section>
+        <section>
 
-</section>
-
-
-
+        </section>
     </main>
     <footer class="container py-5">
         <div class="row">
@@ -94,7 +97,7 @@
                     <path
                         d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
                 </svg>
-                <small class="d-block mb-3 text-muted">&copy; 2022–2023</small>
+                <small class="d-block mb-3 text-muted" id="clock">2022–<span id="toDay"></span></small>
                 <small class="d-block mb-3 text-muted">&copy; Jonathan Javier Urquiza</small>
             </div>
             <div class="col-6 col-md">
@@ -115,9 +118,13 @@
             <div class="col-6 col-md">
                 <h5>Redes</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary" href="https://www.linkedin.com/in/jonathan-javier-urquiza-179a70119/"><img src="../img/icons/linkedin.svg" alt="" srcset=""></a></li>
-                    <li><a class="link-secondary" href="https://github.com/JonathanUrquiza"><img src="../img/icons/github.svg" alt="" srcset=""></a></li>
-                    <li><a class="link-secondary" href="https://wa.me/5491168370362"><img src="../img/icons/whatsapp.svg" alt="" srcset=""></a></li>
+                    <li><a class="link-secondary"
+                            href="https://www.linkedin.com/in/jonathan-javier-urquiza-179a70119/"><img
+                                src="../img/icons/linkedin.svg" alt="" srcset=""></a></li>
+                    <li><a class="link-secondary" href="https://github.com/JonathanUrquiza"><img
+                                src="../img/icons/github.svg" alt="" srcset=""></a></li>
+                    <li><a class="link-secondary" href="https://wa.me/5491168370362"><img
+                                src="../img/icons/whatsapp.svg" alt="" srcset=""></a></li>
                 </ul>
             </div>
         </div>
@@ -125,4 +132,6 @@
 </body>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+<script src="../js/index.js"></script>
+
 </html>
