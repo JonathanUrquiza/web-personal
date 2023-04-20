@@ -1,0 +1,20 @@
+[
+    {
+       "nombre":"Plan básico",
+       "tipo":"web dinámico",
+       "id":3,
+       "precio":37800,
+       "promo":"promo 3",
+       "tiempo":"20 días",
+       "cantidad":3
+    },
+    {
+       "nombre":"Plan medio",
+       "tipo":"web dinámico",
+       "id":4,
+       "precio":42000,
+       "promo":"promo 4",
+       "tiempo":"25 días",
+       "cantidad":6
+    }
+ ]
