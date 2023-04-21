@@ -228,14 +228,58 @@ body {
     box-shadow: inset 0 0 5px var(--text-neonP), 0 0 5px var(--text-neonP);
    }
 }
-
-
 .neon {
   border: 2px solid var(--main-white);
   box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
   border-radius: 30px;
   margin-bottom: 2rem;
+  margin-left: 3px;
+  margin-right: 3px;
+   transform-origin: 50% 0%;
+  animation: neon;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
+@keyframes neon {
+  0% {
+    box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
+   }
+  
+  10% {
+    box-shadow: inset 0 0 0 var(--main-white), 0 0 0 var(--main-white);
+   }
+  
+  20% {
+    box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
+   }
+  30% {
+    box-shadow: inset 0 0 0 var(--main-white), 0 0 0 var(--main-white);
+   }
+  40% {
+    box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
+   }
+  50% {
+    box-shadow: inset 0 0 0 var(--main-white), 0 0 0 var(--main-white);
+   }
+  60% {
+    box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
+   }
+  70% {
+    box-shadow: inset 0 0 0 var(--main-white), 0 0 0 var(--main-white);
+   }
+  80% {
+    box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
+   }
+  90% {
+    box-shadow: inset 0 0 0 var(--main-white), 0 0 0 var(--main-white);
+   }
+  100% {
+    box-shadow: inset 0 0 15px var(--text-neonP), 0 0 15px var(--text-neonP);
+   }
+}
+
+
 
 form {
   width: 60vw;
