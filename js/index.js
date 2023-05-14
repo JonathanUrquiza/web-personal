@@ -69,7 +69,7 @@ function crearHtml(array) {
                 <li>Galeria de fotos y videos</li>
                 <li>Google maps</li>
               </ul>
-              <button class="btnAdd" id="${id}">Add</button>
+              
             </div>
             <div class="web bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
             </div>
