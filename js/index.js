@@ -48,7 +48,7 @@ function crearHtml(array) {
 
         let card = "";
         //destructuring
-        const { nombre, tipo, precio,id, tiempo, cantidad } = item;
+        const { nombre, tipo, precio, tiempo, cantidad } = item;
         card =
             `
             
