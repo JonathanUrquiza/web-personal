@@ -6,15 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="desarrollo web">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="img/favicons/desarrollo-web.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="styles/index.css" rel="stylesheet">
   <title>Desarrollo Web</title>
 </head>
@@ -24,14 +25,14 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
         <a class="navbar-brand logo" href="index.html">
-          <img src="img/Logo/Logo.png" alt="Logo" height="50px"class=" image-logo">
-          <p class="logo-content">D</p>
-          <p  class="logo-name">DEVURWEB</p>
+          <p class="logo-name">DEVURWEB</p>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2">
           <span class="navbar-toggler-icon"></span>
         </button>
+
+
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
@@ -42,7 +43,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/sobremi.html">Acerca de mí</a>
+                <a class="nav-link active" aria-current="page" href="pages/nosotros.html">Sobre nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="pages/servicio.html">Servicios</a>
@@ -61,24 +62,28 @@
   <main>
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="img/fondos/codigo-fuente.webp" class="d-block mx-lg-auto img-fluid" alt="Codigo" width="700"
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="img/fondos/codigo-fuente.webp" class="d-block mx-lg-auto img-fluid neon" alt="Codigo" width="700"
             height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Desarrollo web</h1>
-          <p class="lead">Website´s a medida del cliente usando lenguajes de HTML5, CSS3 y javaScript. Depnediendo de la
-            magnitud del proyecto se puede utilizar Sass.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="pages/servicio.html#estatico"><button type="button"
-                class="btn btn-primary btn-lg px-4 me-md-2">Estaticos</button></a>
-            <a href="pages/servicio.html#dinamico"><button type="button"
-                class="btn btn-primary btn-lg px-4 me-md-2">Dinamicos</button></a>
+          <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Desarrollo web</h1>
+          <p class="lead">Realizamos website a medida del cliente, utilizando herramientas actuales como HTML5, CSS3,
+            Saas, lenguajes de programación como Java y javaScript, siempre adaptandonos a sus necesidades.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <a href="index.html#contenido"><button type="button" 
+                class="btn btn-primary btn-lg px-4 me-md-2" id="btnEstaticos">Estáticos</button></a>
+            <a href="index.html#contenido"><button type="button"
+                class="btn btn-primary btn-lg px-4 me-md-2" id="btnDinamicos">Dinámicos</button></a>
           </div>
         </div>
       </div>
     </div>
     <div class="b-example-divider"></div>
+   <section id="contenido" class="contenido">
+<!-- contenido dinamica -->
+    </section>
+    <hr class="featurette-divider">
   </main>
   <footer class="container py-5">
     <div class="row">
@@ -121,6 +126,7 @@
   </footer>
   <script src="js/index.js"></script>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
 
