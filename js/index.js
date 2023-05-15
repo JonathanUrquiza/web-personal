@@ -10,7 +10,7 @@ toDay.innerText = fecha.getFullYear();//Actualizaciones del año en el copy
 /* const form = document.querySelectorAll('input'); */
 
 //siempre que allamos acceddido al nodo
-contenido.innerHTML = "<h1>Desarrollo web</h1>";//interpreta la etiqueta
+/* contenido.innerHTML = "<h1>Desarrollo web</h1>"; *///interpreta la etiqueta
 contenido.className = "contenido";//agrega la clase
 
 fetch('./data/data.json')
