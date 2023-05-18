@@ -15,23 +15,25 @@
     <link rel="icon" type="image/jpg" href="../img/favicons/desarrollo-web.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-    <title>Carrito</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="index.html">
-                    <img src="../img/Logo/Logo.png" alt="Logo" height="50px"class=" image-logo">
-                    <p class="logo-content">D</p>
-                    <p  class="logo-name">DEVURWEB</p>
-                  </a>
+                <a class="navbar-brand logo" href="../index.html">
+                    <p class="logo-name">DEVURWEB</p>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                     <span class="navbar-toggler-icon"></span>
@@ -46,41 +48,73 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../pages/sobremi.html">Acerca de
-                                    mí</a>
+                                <a class="nav-link active" aria-current="page" href="nosotros.html">Sobre nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="servicio.html">Servicios</a>
+                                <a class="nav-link" href="portfolio.html#sites">Portfolio</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Desplegar
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Enviame un mensaje</a></li>
-                                    <li><a class="dropdown-item" href="#">Formas de</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Formulario.html">Enviame un mensaje</a>
                             </li>
                         </ul>
-                        <form class="d-flex mt-3 mt-lg-0" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+
+
     <main>
-        <section  id="CarritoDinamico">
-        </section>
-        <section>
-            
+
+        <Section>
+            <h2>
+                <center>Portfolio responsive</center>
+            </h2>
+            <div class="d-flex flex-column align-items-center justify-content-around" id="sites">
+                <div class="card d-flex flex-column  align-items-center p-1 w-75">
+                    <h3>Tecnicatura</h3>
+                    <iframe src="https://jonathanurquiza.github.io/tics/" frameborder="0" width="100%" height="600px"
+                        scrolling="no"></iframe>
+                    <p>HTML, Css y Bootstrap.</p>
+                    <a href="https://jonathanurquiza.github.io/tics/"><button>Ver página</button></a>
+                </div>
+                <hr class="featurette-divider">
+                <div class="card d-flex flex-column align-items-center p-1 w-75">
+                    <h3>Tabla periódica</h3>
+                    <iframe src="https://jonathanurquiza.github.io/javascript-Jonathan-Javier-Urquiza_32524709/"
+                        frameborder="0" width="100%" height="600px" scrolling="no"></iframe>
+                    <p>HTML, Css, Bootstrap, javaScript.</p>
+                    <a href="https://jonathanurquiza.github.io/javascript-Jonathan-Javier-Urquiza_32524709/"><button>Ver
+                            página</button></a>
+                </div>
+                <hr class="featurette-divider">
+                <div class="card d-flex flex-column align-items-center p-1 w-75">
+                    <h3>Taller mecánico</h3>
+                    <iframe src="https://jonathanurquiza.github.io/Joathan-Urquiza-32254709/" frameborder="0"
+                        width="100%" height="600px" scrolling="no"></iframe>
+                    <p>HTML, Css, Bootstrap, javaScript y Sass.</p>
+                    <a href="https://jonathanurquiza.github.io/Joathan-Urquiza-32254709/"><button>Ver
+                            página</button></a>
+                </div>
+                <hr class="featurette-divider">
+                <div class="card d-flex flex-column align-items-center p-1 w-75">
+                    <h3>Listado de productos</h3>
+                    <iframe src="https://jonathanurquiza.github.io/coderhuse-jonathan-uruiza/" frameborder="0"
+                        width="100%" height="600px" scrolling="no"></iframe>
+                    <p>HTML, Css, Bootstrap.</p>
+                    <a href="https://jonathanurquiza.github.io/coderhuse-jonathan-uruiza/"><button>Ver
+                            página</button></a>
+                </div>
+
+
+            </div>
+        </Section>
+        <hr class="featurette-divider">
+        <section  class="d-flex flex-column align-items-center justify-content-center p-1 w-100">
+        <h2>Tester funcional</h2>
+        <div class="card d-flex flex-column align-items-center p-1 w-75">
+            <embed src="../doc/(CLARO) Ejemplo caso de prueba 1 GRUPO 1 .xlsx" frameborder="0" width="100%" height="600px"></embed>
+        </div>
         </section>
     </main>
     <footer class="container py-5">
