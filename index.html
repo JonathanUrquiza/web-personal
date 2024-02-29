@@ -193,10 +193,14 @@
 
 
     <section class="row">
-      <form action="" method="get" id="form" class="card shadow-lg col-12 col-md-5 offset-md-3 my-3 p-4">
+      <form action="https://formsubmit.co/jurquiza86@hotmail.com" method="POST" id="form" class="card shadow-lg col-12 col-md-5 offset-md-3 my-3 p-4">
         <fieldset class="d-flex flex-column align-items-center">
-          <label for="name"><input class="my-1" type="text" name="name" placeholder="Name & Lastname"></label>
-          <label for="number"><input class="my-1" type="cel" name="number" placeholder="Contact number"></label>
+          <label for="name"></label>
+          <input class="my-1" type="text" name="name" placeholder="Name & Lastname"required>
+          <label for="number"></label>
+          <input class="my-1" type="number" name="number" placeholder="Contact number"required>
+          <label for="email"></label>
+          <input class="my-1" type="email" name="email" placeholder="Contact email"required>
         </fieldset>
         <fieldset class="d-flex flex-column align-items-center my-3">
           <label for="information"></label>
@@ -204,6 +208,7 @@
         </fieldset>
 
         <button type="submit" class="btn btn-success">Enviar</button>
+        <input type="hidden" name="_next" value="http://localhost:5500">
       </form>
     </section>
 
@@ -237,7 +242,7 @@
         <small class="d-block mb-3">&copy; Jonathan Javier Urquiza</small>
       </div>
   </footer>
-  <script src="../index.js" type="Module">/* En este HTML se encarga del año en el copy */</script>
+  <script src="index.js" type="Module">/* En este HTML se encarga del año en el copy */</script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide">glideJS</script>
   <script>
     new Glide('.glide',{
