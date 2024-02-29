@@ -1,0 +1,16 @@
+/* NUEVAS-LINEAS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container-fluid {
+    color: var(--light-font-solid);
+    font-family: var(--alternative-font);
+}
+
+
+
