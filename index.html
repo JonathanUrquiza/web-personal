@@ -38,7 +38,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page"
+                <a class="nav-link" aria-current="page"
                   href="https://www.linkedin.com/in/jonathan-urquiza-179a70119/">LinkedIn</a>
               </li>
               <li class="nav-item">
@@ -48,7 +48,7 @@
                 <a class="nav-link" href="">Promociones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Resume</a>
+                <a class="nav-link active" href="">Resume</a>
               </li>
             </ul>
             </li>
@@ -64,8 +64,8 @@
     <section class="row">
 
       <h1 class="visually-hidden">Desarrollo de software</h1>
-      <article class="col-12 px-4 py-5 my-5 text-center">
-        <h2 class="display-5 fw-bold text-decoration-underline">Nosotros</h2>
+      <article class="hero col-12 px-4 py-5 my-5 text-center">
+        <h2 class="hero_title display-5 text-decoration-underline"><span class="hero_title--modified">N</span>osotros</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Somos una consultora joven, enfocada en el desarrollo de Website´s. Contamos con
             múltiples
@@ -86,7 +86,7 @@
       </article>
     </section>
 
-    <h2 class="display-5 fw-bold text-decoration-underline">Our services</h2>
+    <h2 class="display-5 text-decoration-underline">Our services</h2>
     <section class="glide">
       <div class="glide__track" data-glide-el="track">
 
@@ -94,25 +94,28 @@
           <li class="glide__slide">
             <section class="row">
               <article class="col-md-7 text-center my-4">
-                <h2 class="featurette-heading fw-normal lh-1">.Frontend Dev<span
-                    class="text-danger text-decoration-underline"> {AppWeb};</span></h2>
+                <h2 class="featurette-heading fw-normal lh-1">.Frontend Dev <span
+                    class="text-danger">{AppWeb};</span></h2>
                 <ul class="lead list-unstyled">
                   <li>API´s</li>
                   <li>Fetching</li>
                   <li>Frameworks.</li>
                   <li>Movile First.</li>
                   <li>Consulta a base de datos (SQL).</li>
-                  <li>gestor de verciones.</li>
-                  <li>SEO.</li>
+                  <li>Gestor de verciones.</li>
+                  <li>S.E.O.</li>
                 </ul>
               </article>
-
+              
               <div class="col-md-5 order-md-1 my-4">
                 <!-- Aca hacer un carrousel del frontend -->
                 <picture>
                   <img class=" border rounded border-grey-light img-fluid mx-auto" src="img/fondos/funkoShop.png"
-                    alt="">
+                  alt="">
                 </picture>
+                <div class="d-flex justify-content-around">
+                  <button class="btn btn-info border rounded-2 my-3 col-7" type="submit">More information</button>
+                  </div>
               </div>
             </section>
           </li>
@@ -143,7 +146,9 @@
                   <img class="img-fluid mx-auto border rounded border-grey-light" src="img/fondos/servicios.png"
                     alt="Imagen represntativa del codigo de desarrollo de un backend.">
                 </picture>
-
+                <div class="d-flex justify-content-around">
+                <button class="btn btn-info border rounded-2 my-3 col-7" type="submit">More information</button>
+                </div>
               </div>
             </section>
           </li>
@@ -151,7 +156,7 @@
             <section class="row">
               <article class="col-md-7 text-center my-4">
                 <h2 class="featurette-heading fw-normal lh-1">Testing Funcional <span
-                    class="text-secondary border-1 border-bottom border-secondary">BlackBox</span></h2>
+                    class="text-secondary border-1 border-secondary">BlackBox</span></h2>
                 <ul class="lead list-unstyled">
                   <li>Herramientas:
                     <ul>-SpitaPlan</ul>
@@ -161,10 +166,10 @@
                     <ul>-MySQL</ul>
                   </li>
                   <li>Metodologías agile.</li>
-                  <li>Agile Testing.</li>
-                  <li>test case.</li>
-                  <li>Caso de uso.</li>
-                  <li>Caso de prueba.</li>
+                  <li>Agile testing.</li>
+                  <li>Test set.</li>
+                  <li>User case.</li>
+                  <li>Test case.</li>
                 </ul>
               </article>
               <div class="col-md-5 order-md-1">
@@ -173,16 +178,18 @@
                   <img class="img-fluid mx-auto border rounded border-grey-light" src="img/fondos/web-personal.jpg"
                     alt="Imagen represntativa del codigo de desarrollo de un backend.">
                 </picture>
-
+                <div class="d-flex justify-content-around">
+                  <button class="btn btn-info border rounded-2 my-3 col-7" type="submit">More information</button>
+                  </div>
               </div>
             </section>
           </li>
         </ul>
       </div>
-      <div class="glide__arrows" data-glide-el="controls">
-        <button class="glide__arrow glide__arrow--left bg-black" data-glide-dir="<"><iconify-icon
+      <div class="glide__arrows d-none d-md-flex flex-md-row" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left text-light bg-success border-none rounded-5 p-2" data-glide-dir="<"><iconify-icon
           icon="ic:twotone-chevron-left"></button>
-        <button class="glide__arrow glide__arrow--right bg-black"  data-glide-dir=">"><iconify-icon
+        <button class="glide__arrow glide__arrow--right text-light bg-success border-none rounded-5 p-2"  data-glide-dir=">"><iconify-icon
           icon="ic:twotone-chevron-right"></button>
       </div>
     </section>
@@ -219,12 +226,12 @@
     <div class="row">
       <div class="px-5">
         <h5>Redes</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="https://www.linkedin.com/in/jonathan-javier-urquiza-179a70119/"><img
+        <ul class="list-group list-unstyled text-small d-flex flex-md-row">
+          <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://www.linkedin.com/in/jonathan-javier-urquiza-179a70119/"><img class="bg-light border-5 rounded-2"
                 src="img/icons/icons8-linkedin-50.png" alt="linkedin" srcset=""></a></li>
-          <li><a class="link-secondary" href="https://github.com/JonathanUrquiza"><img
+          <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://github.com/JonathanUrquiza"><img class="bg-light border-5 rounded-5"
                 src="img/icons/icons8-github-50.png" alt="" srcset=""></a></li>
-          <li><a class="link-secondary" href="https://wa.me/5491168370362"><img src="img/icons/icons8-whatsapp-50.png"
+          <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://wa.me/5491168370362"><img class="bg-light border-5 rounded-5" src="img/icons/icons8-whatsapp-50.png"
                 alt="" srcset=""></a></li>
         </ul>
       </div>
