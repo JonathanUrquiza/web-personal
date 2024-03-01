@@ -84,7 +84,7 @@
     <section class="glide">
       <div class="glide__track" data-glide-el="track">
 
-        <ul class="glide__slides">
+        <ul class="glide__slides mb-5">
           <li class="glide__slide">
             <section class="row">
               <article class="col-md-7 text-center my-4">
@@ -101,10 +101,10 @@
                 </ul>
               </article>
               
-              <div class="col-md-5 order-md-1 my-4">
+              <div class="col-md-5 order-md-1">
                 <!-- Aca hacer un carrousel del frontend -->
                 <picture>
-                  <img class=" border rounded border-grey-light img-fluid mx-auto" src="img/fondos/funkoShop.png"
+                  <img class="img-fluid mx-auto border rounded border-grey-light" src="img/fondos/funkoShop.png"
                   alt="">
                 </picture>
                 <div class="d-flex justify-content-around">
@@ -155,9 +155,7 @@
                   <li>Herramientas:
                     <ul>-SpitaPlan</ul>
                     <ul>-Jmeter</ul>
-                    <ul>-Postman</ul>
                     <ul>-Jira</ul>
-                    <ul>-MySQL</ul>
                   </li>
                   <li>Metodologías agile.</li>
                   <li>Agile testing.</li>
@@ -180,11 +178,10 @@
           </li>
         </ul>
       </div>
-      <div class="glide__arrows d-none d-md-flex flex-md-row" data-glide-el="controls">
-        <button class="glide__arrow glide__arrow--left text-light bg-success border-none rounded-5 p-2" data-glide-dir="<"><iconify-icon
-          icon="ic:twotone-chevron-left"></button>
-        <button class="glide__arrow glide__arrow--right text-light bg-success border-none rounded-5 p-2"  data-glide-dir=">"><iconify-icon
-          icon="ic:twotone-chevron-right"></button>
+      <div class="glide__bullets" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="=0"></button>
+        <button class="glide__bullet"  data-glide-dir="=1"></button>
+        <button class="glide__bullet"  data-glide-dir="=2"></button>
       </div>
     </section>
 
@@ -225,7 +222,7 @@
                 src="img/icons/icons8-linkedin-50.png" alt="linkedin" srcset=""></a></li>
           <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://github.com/JonathanUrquiza"><img class="bg-light border-5 rounded-5"
                 src="img/icons/icons8-github-50.png" alt="" srcset=""></a></li>
-          <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://wa.me/5491168370362"><img class="bg-light border-5 rounded-5" src="img/icons/icons8-whatsapp-50.png"
+          <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://wa.me/5491168370362"><img class="bg-light border-1 rounded-5" src="img/icons/icons8-whatsapp-50.png"
                 alt="" srcset=""></a></li>
         </ul>
       </div>
@@ -251,6 +248,7 @@
       type: 'carrousel',
       start: 0,
       preView: 1,
+      focusAt:'center',
       gap: 30,
       breakpoint: {
         991:{
@@ -262,8 +260,8 @@
       }
     }).mount()
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js">iconify</script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js">Bootstrap</script>
   <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
