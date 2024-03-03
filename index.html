@@ -65,7 +65,7 @@
 
       <h1 class="visually-hidden">Desarrollo de software</h1>
       <article class="hero col-12 px-4 py-5 my-5 text-center">
-        <h2 class="hero_title display-5 text-decoration-underline"><span class="hero_title--modified">N</span>osotros</h2>
+        <h2 class="hero_title display-5 lead"><span class="hero_title--modified">N</span>osotros</h2>
         <div class="hero_body col-lg-6 mx-auto">
           <p class="hero_text lead mb-4">Somos una consultora joven, enfocada en el desarrollo de sitios web. Contamos con múltiples herramientas para brindar a nuestros clientes un diseño que se adapte a sus necesidades, ofreciendo un producto acorde a sus gustos. Nos mantenemos en capacitación continua con las herramientas y los entornos que demanda el mercado.
             <br>
@@ -80,7 +80,7 @@
       </article>
     </section>
 
-    <h2 class="display-5 text-decoration-underline">Our services</h2>
+    <h2 class="display-5 lead">Our services</h2>
     <section class="glide">
       <div class="glide__track" data-glide-el="track">
 
@@ -193,19 +193,19 @@
     <section class="row">
       <form action="https://formsubmit.co/jurquiza86@hotmail.com" method="POST" id="form" class="card shadow-lg col-10 offset-1 col-md-5 offset-md-3 my-5 p-4">
         <fieldset class="d-flex flex-column align-items-center">
-          <label for="name"></label>
-          <input class="my-1" type="text" name="name" placeholder="Name & Lastname"required>
-          <label for="number"></label>
-          <input class="my-1" type="number" name="number" placeholder="Contact number"required>
-          <label for="email"></label>
-          <input class="my-1" type="email" name="email" placeholder="Contact email"required>
+          <label class="inputLabel" for="name"></label>
+          <input class="my-1 input-group text-center" type="text" name="name" placeholder="Name & Lastname"required>
+          <label class="inputLabel" for="number"></label>
+          <input class="my-1 input-group text-center" type="number" name="number" placeholder="Contact number"required>
+          <label class="inputLabel" for="email"></label>
+          <input class="my-1 input-group text-center" type="email" name="email" placeholder="Contact email"required>
         </fieldset>
         <fieldset class="d-flex flex-column align-items-center my-3">
-          <label for="information"></label>
-          <textarea name="information" id="information" cols="30" rows="10">Dejenos su comentario</textarea>
+          <label class="inputLabel" for="information"></label>
+          <textarea class="text-center input-group" name="information" id="information" cols="30" rows="10" placeholder="Dejenos su comentario"></textarea>
         </fieldset>
 
-        <button type="submit" class="btn btn-success">Enviar</button>
+        <button type="submit" class="btn btn-success w-50 offset-3">Enviar</button>
         <input type="hidden" name="_next" value="https://jonathanurquiza.github.io/web-personal/">
         <input type="hidden" name="_template" value="table">
       </form>
@@ -215,7 +215,7 @@
   </main>
   <footer class="container py-5 text-light">
     <div class="row">
-      <div class="col-4 offset-2">
+      <div class="col-8 offset-4">
         <h5>Redes</h5>
         <ul class="list-group list-unstyled text-small d-flex flex-md-row">
           <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://www.linkedin.com/in/jonathan-urquiza-179a70119/" target="_blank"><img class="bg-light border-5 rounded-2"
@@ -226,11 +226,7 @@
                 alt="" srcset=""></a></li>
         </ul>
       </div>
-      <div class="col-4 offset-2">
-        <p class="clock"></p>
-        <p class="city"></p>
-        </ul>
-      </div>
+      
     </div>
     </div>
     <div class="row">
@@ -245,26 +241,15 @@
         <small class="d-block mb-3" id="clock">2022 – <span id="toDay"></span></small>
         <small class="d-block mb-3">&copy; Jonathan Javier Urquiza</small>
       </div>
+      <nav class="navbar fixed-bottom bg-dark px-4 border-top border-warning">
+        <p class="day card-text lead"></p>
+        <p class="clock text-info"></p>
+        <p class="city lead"></p>
+        </ul>
+      </>
   </footer>
   <script src="index.js" type="Module">/* En este HTML se encarga del año en el copy */</script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide">glideJS</script>
-  <script>
-    new Glide('.glide',{
-      type: 'carrousel',
-      start: 0,
-      preView: 1,
-      focusAt:'center',
-      gap: 30,
-      breakpoint: {
-        991:{
-          preView: 1
-        },
-        768: {
-          preView:1
-        }
-      }
-    }).mount()
-  </script>
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js">iconify</script>
   <script src="../assets/dist/js/bootstrap.bundle.min.js">Bootstrap</script>
   <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>

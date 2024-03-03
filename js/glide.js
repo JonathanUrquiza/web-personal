@@ -1,14 +1,15 @@
-new Glide('.glide', {
-    type: 'carousel',
-    startAt: 0,
-    perView: 3,
-    gap : 30,
-    braekpoint: {
-        991: {
-            perView: 2
-        },
-        768 : {
-            perView: 1
-        }
+export const glide = new Glide('.glide',{
+    type: 'carrousel',
+    start: 0,
+    preView: 1,
+    focusAt:'center',
+    gap: 30,
+    breakpoint: {
+      991:{
+        preView: 1
+      },
+      768: {
+        preView:1
+      }
     }
-}).mount()
+  }).mount()
