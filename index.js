@@ -7,6 +7,6 @@ reloj()
 const dayDates = dayDate()
 weekDay(dayDates)
 obtenerUbicacion()
-glide()
+glide
 
 
