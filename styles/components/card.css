@@ -1,7 +1,6 @@
 .title--font {
     font-family: var(--alternative-font);
     font-weight: 100;
-    margin-left: 50px;
     margin-top: 3px;
     border-bottom: 1px var( --logo-background1) solid;
     text-align: center;

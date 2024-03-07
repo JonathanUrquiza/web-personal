@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="desarrollo web, fullstack developer, testing">
+    <link rel="icon" type="image/jpg" href="img/favicons/desarrollo-web.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link href="../styles/components/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+    <title></title>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="../index.html">
+                    <p class="navbar-logo">Dev<span class="text-warning">Ur</span>Web</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <p class="offcanvas-title" id="offcanvasNavbar2Label">Información</>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="https://www.linkedin.com/in/jonathan-urquiza-179a70119/"
+                                    target="_blank">LinkedIn</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/JonathanUrquiza/JonathanUrquiza"
+                                    target="_blank">Github</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="frontend.html">Frontend</a></li>
+                                    <li><a class="dropdown-item" href="#">Backend</a></li>
+                                    <li><a class="dropdown-item" href="#">Fullstack</a></li>
+                                    <li><a class="dropdown-item" href="#">Programación</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Promociones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../doc/Jonathan-Javier-Urquiza.pdf" target="_blank"
+                                    download="Jonathan-Javier-Urquiza">Resume</a>
+                            </li>
+                        </ul>
+                        </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section class="glide">
+            <h2 class="title--font">Portfolio algoritmos</h2>
+            <div class="glide__track" data-glide-el="track">
+
+                <ul class="glide__slides mb-5">
+                    <li class="glide__slide">
+                        <section class="row text-center">
+                            <article class="col-12 col-md-4 my-4">
+                                <h2 class="featurette-heading fw-normal lh-1 text-decoration-underline">Sherlock and the valid String</h2>
+                                <p>Sherlock considers a string to be valid if all characters of the string appear the
+                                    same number of times. It is also valid if he can remove just character at index in
+                                    the string, and the remaining characters will occur the same number of times. Given
+                                    a string , determine if it is valid. If so, return YES, otherwise return NO.
+                                    <hr>
+                                    Example
+                                    <hr>
+                                    This is a valid string because frequencies are .
+                                    <br>
+
+                                    This is a valid string because we can remove one and have of each character in the
+                                    remaining string.
+                                    <br>
+
+                                    This string is not valid as we can only remove occurrence of . That leaves character
+                                    frequencies of .
+                                    <br>
+                                    Function Description
+                                    <br>
+                                    Complete the isValid function in the editor below.
+                                    <br>
+                                    isValid has the following parameter(s):
+                                    <br>
+                                    string s: a string
+                                </p>
+                                <a class="btn btn-light"
+                                    href="https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem?isFullScreen=true"
+                                    target="_blank">HackerRank</a>
+                            </article>
+
+                            <div class="col-md-4 order-md-1 my-4">
+                                <!-- Aca hacer un carrousel del frontend -->
+                                <picture>
+                                    <img class="w-100" src="../img/codigos/sherlock.png" alt="Imagen del código de ordenamiento.">
+                                </picture>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="glide__slide">
+                        <section class="row text-center">
+                            <article class="col-12 col-md-5 offset-m-1 my-4 order-md-2">
+
+                                <h2 class="featurette-heading fw-normal lh-1 text-decoration-underline">birthday Cake Candles</h2>
+                                <p>You are in charge of the cake for a child's birthday. You have decided the cake will
+                                    have one candle for each year of their total age. They will only be able to blow out
+                                    the tallest of the candles. Count how many candles are tallest.
+                                    <hr>
+                                    Example
+                                    <hr>
+
+                                    The maximum height candles are units high. There are of them, so return .
+                                    <br>
+                                    Function Description
+                                    <br>
+                                    Complete the function birthdayCakeCandles in the editor below.
+                                    <br>
+                                    birthdayCakeCandles has the following parameter(s):
+                                    <br>
+                                    int candles[n]: the candle heights
+                                </p>
+
+                                <a class="btn btn-light"
+                                    href="https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true"
+                                    target="_blank">HackerRank</a>
+                            </article>
+                            <div class="col-md-5 my-4 offset-md-1 order-md-1">
+                                <!-- Aca hacer un carrousel del codigo backend -->
+                                <picture>
+                                    <img class="w-100" src="../img/codigos/candles.png"
+                                        alt="Imagen del código de ordenamiento.">
+                                </picture>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="glide__slide">
+                        <section class="row text-center ">
+                            <article class="col-md-5 offset-md-1 my-4">
+                                <h2 class="featurette-heading text-decoration-underline fw-normal lh-1">Dale la vuelta a los paréntesis</h2>
+                                <p>
+                                    En el taller de Santa 🎅, algunos mensajes navideños han sido escritos de manera
+                                    peculiar: las letras dentro de los paréntesis deben ser leídas al revés
+                                    <br>
+                                    Santa necesita que estos mensajes estén correctamente formateados. Tu tarea es
+                                    escribir una función que tome una cadena de texto y revierta los caracteres dentro
+                                    de cada par de paréntesis, eliminando los paréntesis en el mensaje final.
+                                    <br>
+                                    Eso sí, ten en cuenta que pueden existir paréntesis anidados, por lo que debes
+                                    invertir los caracteres en el orden correcto.
+                                </p>
+                                <a class="btn btn-light" href="https://adventjs.dev/es/challenges/2023/4">Advent JS</a>
+                            </article>
+                            <div class="col-md-5 my-4 order-md-1">
+                                <!-- Aca hacer un carrousel del codigo backend -->
+                                <picture>
+                                    <img class="w-100" src="../img/codigos/adventjs.png"
+                                        alt="Imagen del código de ordenamiento.">
+                                </picture>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="container py-5 text-light">
+        <div class="row">
+            <div class="col-8 offset-4">
+                <h5>Redes</h5>
+                <ul class="list-group list-unstyled text-small d-flex flex-md-row">
+                    <li class="list-item mx-4 my-2"><a class="link-secondary"
+                            href="https://www.linkedin.com/in/jonathan-urquiza-179a70119/" target="_blank"><img
+                                class="bg-light border-5 rounded-2" src="../img/icons/icons8-linkedin-50.png"
+                                alt="linkedin" srcset=""></a></li>
+                    <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://github.com/JonathanUrquiza"
+                            target="_blank"><img class="bg-light border-5 rounded-5"
+                                src="../img/icons/icons8-github-50.png" srcset=""></a></li>
+                    <li class="list-item mx-4 my-2"><a class="link-secondary" href="https://wa.me/5491168370362"
+                            target="_blank"><img class="bg-light border-1 rounded-5"
+                                src="../img/icons/icons8-whatsapp-50.png" alt="" srcset=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex flex-column justify-content-around align-items-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                    viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                </svg>
+                <small class="d-block mb-3" id="clock">2022 – <span id="toDay"></span></small>
+                <small class="d-block mb-3">&copy; Jonathan Javier Urquiza</small>
+            </div>
+            <nav class="navbar fixed-bottom bg-dark px-4 border-top border-warning">
+                <p class="day card-text lead"></p>
+                <p class="clock text-info"></p>
+                <p class="city lead"></p>
+                </ul>
+            </nav>
+    </footer>
+    <script src="../index.js" type="Module">En este HTML se encarga del año en el copy</script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide">glideJS</script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js">iconify</script>
+    <script src="js/bootstrap.bundle.min.js">Bootstrap</script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+
+</html>
