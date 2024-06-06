@@ -13,3 +13,8 @@ export const glide = new Glide('.glide',{
       }
     }
   }).mount()
+
+
+  const Canal = "  Sys32.exe  ";
+
+  console.log(Canal);
